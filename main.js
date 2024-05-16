@@ -35,32 +35,3 @@ function convertToUSD() {
 dolarInput.addEventListener("input", convertToPesos);
 pesoCInput.addEventListener("input", convertToUSD);
 
-//Ejercicio 3
-let arrayNotas = [
-    {
-        id: 1,
-        titulo: `Sacar la basura`,
-        texto: `mi mama me va retar si no lo hago`,
-        realizada: false
-    },
-    {
-        id:2,
-        titulo:`Comer`,
-        texto:`quedo comida de ayer`,
-        realizada:true
-    },
-    {
-        id:3,
-        titulo:`estudiar`,
-        texto:`estoy flojo de papeles y no voy a aprobar la task 3`,
-        realizada:false
-    },
-    {
-        id:4,
-        titulo:`Comer`,
-        texto:`quedo comida de ayer`,
-        realizada:true
-    }
-]
-
-let idGlobal = 4
